@@ -16,8 +16,8 @@ body {
 .mainContent div {
 	display: inline-block;
 	vertical-align: top;
-	/* color */
-	/* font size */
+	color: white;
+	font-size: 12px;
 }
 
 .to_left {
