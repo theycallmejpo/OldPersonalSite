@@ -39,7 +39,7 @@ body {
 }
 
 #blog {
-	width: 40%;
+	width: 39%;
 	height: 450px;
 	background-color: red;
 }
@@ -57,22 +57,26 @@ body {
 }
 
 #music {
-	width: 20%;
+	width: 19.5%;
 	height: 400px;
 	background-color: black;
 }
 
 #stanford {
-	width: 25%;
+	width: 24.5%;
 	height: 400px;
 	background-color: green;
 }
 
 #peru {
-	width: 25%;
+	width: 24.5%;
 	height: 400px;
 	background-color: pink;
 }
+
+.margin_right {} /* Updated with jquery */
+.margin_top {} /* Updated with jquery */
+
 
 /*=========================*/
 /* CSS for footer sections */
