@@ -4,7 +4,7 @@ var changeMargin = function() {
 	var contentWidth = $('.mainContent').width();
 	var margin = contentWidth * 0.5 / 100;
 
-	$('.margin_right').css('margin-right', margin + 'px');
+	$('.margin_right').css('margin-right', '0.5%');
 	$('.margin_top').css('margin-top', margin + 'px');
 };
 

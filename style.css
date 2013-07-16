@@ -75,6 +75,13 @@ body {
 	background-color: #623DBD;
 }
 
+#more {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: 0.8rem;
+}
+
 .margin_right {} /* Updated with jquery */
 .margin_top {} /* Updated with jquery */
 
