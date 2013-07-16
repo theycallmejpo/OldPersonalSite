@@ -83,12 +83,15 @@ body {
 	font-weight: 100;
 	font-size: 0.7rem;
 	font-style: italic;
-	margin-top: 100px;
-	margin-left: 100px;
+	float: right;
 }
 
 .margin_right {} /* Updated with jquery */
 .margin_top {} /* Updated with jquery */
+
+.clear {
+	clear: both;
+}
 
 
 /*=========================*/
