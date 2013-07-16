@@ -2,6 +2,7 @@ body {
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 87.5%;
+	background-color: #170453;
 
 }
 
@@ -35,43 +36,43 @@ body {
 #me {
 	width: 30%;
 	height: 450px;
-	background-color: blue;
+	background-color: #009BAD;
 }
 
 #blog {
 	width: 39%;
 	height: 450px;
-	background-color: red;
+	background-color: #623DBD;
 }
 
 #about {
 	width: 30%;
 	height: 270px;
-	background-color: yellow;
+	background-color: #DA542B;
 }
 
 #projects {
 	width: 30%;
 	height: 580px;
-	background-color: orange;
+	background-color: #000000;
 }
 
 #music {
 	width: 19.5%;
 	height: 400px;
-	background-color: black;
+	background-color: #009C00;
 }
 
 #stanford {
 	width: 24.5%;
 	height: 400px;
-	background-color: green;
+	background-color: #8C1515;
 }
 
 #peru {
 	width: 24.5%;
 	height: 400px;
-	background-color: pink;
+	background-color: #A200A9;
 }
 
 .margin_right {} /* Updated with jquery */
