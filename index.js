@@ -29,4 +29,8 @@ $(document).ready(function () {
 		window.open("https://github.com/jposadas");
 	});
 
+	$('#email_icon').click(function () {
+		window.location.href = "mailto:jposadas@stanford.edu";
+	});
+
 });
