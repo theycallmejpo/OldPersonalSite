@@ -134,6 +134,7 @@ body {
 
 .social_icon:hover {
     opacity: 1.0;
+    cursor: pointer;
 }
 
 .social_icon_container {

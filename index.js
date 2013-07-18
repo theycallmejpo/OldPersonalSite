@@ -11,3 +11,22 @@ var changeMargin = function() {
 $(document).ready(changeMargin);
 $(window).resize(changeMargin);
 
+$(document).ready(function () {
+
+	$('#linkedin_icon').click(function() {
+		window.open("http://www.linkedin.com/pub/juan-posadas-castillo/6b/22a/213");
+	});
+
+	$('#facebook_icon').click(function() {
+		window.open("https://www.facebook.com/jposadas92");
+	});
+
+	$('#twitter_icon').click(function() {
+		window.open("https://twitter.com/jposadasc");
+	});
+
+	$('#github_icon').click(function() {
+		window.open("https://github.com/jposadas");
+	});
+
+});
