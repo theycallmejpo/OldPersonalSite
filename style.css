@@ -140,7 +140,7 @@ body {
 	width: 30%;
 	height: 50px;
 	float: right;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 .social_icon_container > img{
