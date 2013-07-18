@@ -111,12 +111,18 @@ body {
 	height: 50px;
 	background-color: #ECECEF;
 	line-height: 50px;
+	opacity: 0.7;
+}
+
+.footer:hover {
+	opacity: 1.0;
 }
 
 .footer_text {
 	margin-left: 3%;
 	font-weight: 300;
-	color: #8E8E8E;
+	/*color: #8E8E8E;*/
+	color: black;
 }
 
 .rights_reserved {
@@ -147,7 +153,7 @@ body {
 .social_icon_container > img{
 	vertical-align: middle;
 	margin-left: 2%;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 }
 
 .social_icon_container #email_icon {
