@@ -37,6 +37,9 @@ body {
 
 .flip-container {
 	-webkit-perspective: 1000;
+	background-image:url('http://netdna.copyblogger.com/images/long_road_to_nowhere.jpg');
+	background-size: 100% 450px;
+	background-repeat: no-repeat;
 	background-color: white;
 }
 
