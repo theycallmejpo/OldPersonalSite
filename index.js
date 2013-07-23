@@ -34,3 +34,12 @@ $(document).ready(function () {
 	});
 
 });
+
+
+$(document).ready(function() {
+
+	$('.flip-container').click(function() {
+		$('.flipper').toggleClass('flip');
+	});
+
+});

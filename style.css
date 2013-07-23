@@ -43,7 +43,12 @@ body {
 	background-color: white;
 }
 
-.flip-container:hover .flipper {
+.flip-container:hover {
+	cursor: pointer;
+	
+}
+
+.flip {
 	transform: rotateY(180deg);
    	-webkit-transform: rotateY(180deg);
 }
