@@ -176,11 +176,9 @@ body {
 /* CSS for footer sections */
 /*=========================*/
 
-.footer > * {
-	display: inline-block;
-}
 
-.footer {
+
+.footer-container {
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
@@ -190,21 +188,40 @@ body {
 	opacity: 0.7;
 }
 
-.footer:hover {
+.footer-container:hover {
 	opacity: 1.0;
 }
 
-.footer_text {
-	margin-left: 3%;
+.footer-text {
 	font-weight: 300;
-	/*color: #8E8E8E;*/
-	color: black;
+	color: #8E8E8E;
+	/*color: black;*/
 }
 
-.rights_reserved {
+.footer {
+	max-width: 1170px;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.rights-reserved {
 	text-transform: uppercase;
 	color: blue;
 	font-size: 0.7rem;
+}
+
+.social_icon_container {
+	width: auto;
+	height: 50px;
+	float: right;
+	overflow: hidden;
+}
+
+.social_icon_container > img{
+	vertical-align: middle;
+	padding-left: 10px;
+	margin-bottom: 3px;
 }
 
 .social_icon {
@@ -217,23 +234,6 @@ body {
 .social_icon:hover {
     opacity: 1.0;
     cursor: pointer;
-}
-
-.social_icon_container {
-	width: 30%;
-	height: 50px;
-	float: right;
-	overflow: hidden;
-}
-
-.social_icon_container > img{
-	vertical-align: middle;
-	margin-left: 2%;
-	margin-bottom: 5px;
-}
-
-.social_icon_container #email_icon {
-	margin-left: 3%;
 }
 
 
