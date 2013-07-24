@@ -96,10 +96,12 @@ body {
 	height: 450px;
 }
 #me .front {
-	background-color: #A000A8;
+	background-image: url('images/obama.jpg');
+	background-size: 100% 450px;
 }
 #me .back {
-	background-color: black;
+	background-image: url('images/clooney.jpg');
+	background-size: 100% 450px;
 }
 
 
@@ -137,7 +139,6 @@ body {
 	width: 20%;
 	height: 400px;
 	background-color: #2D87EF;
-	text-align: center;
 }
 
 #stanford {
@@ -146,10 +147,23 @@ body {
 	background-color: #BB1D48;
 }
 
+#stanford-block {
+	width: 60px;
+	height: auto;
+	position: relative;
+	top: -9px;
+
+}
+
 #peru {
 	width: 24%;
 	height: 400px;
 	background-color: #623DBD;
+}
+#peru-flag {
+	margin-right: 10px;
+	display: inline-block;
+	box-shadow: 0px 0px 10px #000; 
 }
 
 #more {
@@ -170,7 +184,18 @@ body {
 	clear: both;
 }
 
+/*===============================*/
+/*CSS for Styling within sections
+/*===============================*/
 
+.section-title {
+	font-family: 'Prociono', serif;
+	font-size: 1.2rem;
+	color: #FFE9DC;
+	letter-spacing: 1px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
 
 /*=========================*/
 /* CSS for footer sections */
