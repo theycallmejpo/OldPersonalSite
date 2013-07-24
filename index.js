@@ -38,8 +38,12 @@ $(document).ready(function () {
 
 $(document).ready(function() {
 
-	$('.flip-container').click(function() {
-		$('.flipper').toggleClass('flip');
+	$('.me-container').hover(function() {
+		$('.me-container .flipper').toggleClass('flip');
+	});
+
+	$('.about-switch').click(function() {
+		$('.about-container .flipper').toggleClass('flip');
 	});
 
 });
