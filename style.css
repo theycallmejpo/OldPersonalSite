@@ -21,7 +21,7 @@ body {
 .mainContent > div {
 
 	vertical-align: top;
-	color: #111;
+	color: #FEFEFE;
 	font-size: 0.95rem;
 }
 
@@ -141,7 +141,7 @@ body {
 }
 #about a:visited {
 	text-decoration: none;
-	color: #BFE9DC;
+	color: blue;
 }
 
 
