@@ -33,6 +33,14 @@ $(document).ready(function () {
 		window.location.href = "mailto:jposadas@stanford.edu";
 	});
 
+	$('#peru-link').click(function () {
+		window.open("https://en.wikipedia.org/wiki/Peru");
+	});
+
+	$('#stanford-link').click(function () {
+		window.open("https://www.stanford.edu");
+	});
+
 });
 
 

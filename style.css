@@ -21,9 +21,16 @@ body {
 .mainContent > div {
 
 	vertical-align: top;
-	color: #ECECEF;
-	font-size: 1rem;
+	color: #111;
+	font-size: 0.95rem;
+}
 
+.mainContent div + p {
+	margin-top: 10px !important;
+}
+.mainContent div p {
+	margin: 0 10px 5px 10px;
+	
 }
 
 .to_left {
@@ -126,6 +133,16 @@ body {
 #about .back {
 	background-color: #EF9611;
 }
+#about a {
+	text-decoration: none;
+	color: #9FE9DC;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}
+#about a:visited {
+	text-decoration: none;
+	color: #BFE9DC;
+}
 
 
 
@@ -175,6 +192,7 @@ body {
 	float: right;
 	margin-top: 10px;
 	letter-spacing: 0.2rem;
+	color: #DDD;
 }
 
 .margin_right {} /* Updated with jquery */
