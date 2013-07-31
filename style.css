@@ -31,7 +31,11 @@ body {
 .mainContent div p {
 	margin: 0 10px 5px 10px;
 	cursor: default;
-	
+}
+
+.mainContent ul li {
+	margin-bottom: 20px;
+	list-style-type: square;
 }
 
 .to_left {
