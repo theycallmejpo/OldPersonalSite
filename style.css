@@ -30,6 +30,7 @@ body {
 }
 .mainContent div p {
 	margin: 0 10px 5px 10px;
+	cursor: default;
 	
 }
 
@@ -82,6 +83,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
+	overflow: hidden;
 }
 
 .front {
