@@ -21,7 +21,7 @@ body {
 .mainContent > div {
 
 	vertical-align: top;
-	color: #FEFEFE;
+	color: #DDD;
 	font-size: 0.95rem;
 }
 
@@ -159,13 +159,13 @@ body {
 }
 
 #music {
-	width: 20%;
+	width: 31.5%;
 	height: 400px;
-	background-color: #2D87EF;
+	background-color: #623DBD;
 }
 
 #stanford {
-	width: 24.5%;
+	width: 37.5%;
 	height: 400px;
 	background-color: #BB1D48;
 }
