@@ -285,6 +285,29 @@ body {
     cursor: pointer;
 }
 
+/*===========================*/
+/*====== Media Queries ======*/
+/*===========================*/
+
+@media only screen and (max-width : 780px) {
+
+	body {
+		clear: both;
+		font-size: 90%;
+	}
+
+	.mainContent {
+		width: 95%;
+		margin-top: 2.5%;
+	}
+
+	.me-container, .about-container, #projects, #music, #stanford, #blog {
+		width: 100%;
+		margin: 0 0 5px 0 !important;
+	}
+
+}
+
 
 
 
