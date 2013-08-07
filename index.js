@@ -8,8 +8,8 @@ var changeMargin = function() {
 	$('.margin_top').css('margin-top', margin + 'px');
 };
 
-$(document).ready(changeMargin);
-$(window).resize(changeMargin);
+// $(document).ready(changeMargin);
+// $(window).resize(changeMargin);
 
 $(document).ready(function () {
 
